@@ -43,6 +43,25 @@
     margin-left:.3rem;
     margin-right:.3rem;
   }
+  #header .menu {
+    width:100vw;
+    display:flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap:.2rem;
+    background:var(--white);
+    padding:0 .3rem;
+    text-align: center;
+  }
+  .menu a {
+    width:100%;
+    height:auto;
+    padding:.55rem;
+    font-size:1.4rem;
+    display:block;
+    background:var(--black);
+    color:white;
+  }
   #dois .left h3 {
     width:auto;
     margin:0 2rem;
